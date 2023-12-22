@@ -1,0 +1,26 @@
+
+Problems
+..............................
+
+text overlap on footer 
+and acp pic doesnt center
+during responsive changes to mobile
+
+
+
+
+
+Proposed fixes
+.....................................
+
+rem out div from  line 1890 to 1918 
+to remove text overlap
+
+
+to fix the misaligned ACP logo:
+
+change line 1874 from
+<div class="elementor-widget-container">
+to
+<div class="elementor-widget-container" style="text-align:center;">
+
